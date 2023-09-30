@@ -1,10 +1,9 @@
 import { TERVEKLISTA as LISTA } from "./adatok.js";
-import { htmlOsszeallit } from "./megjelenit.js"
+import ListaMegjelenit from "./Megjelenit.js";
 
 $(function () {
   const szuloElem = $(".tartalom");
-  let txt = htmlOsszeallit(LISTA);
-  szuloElem.html(txt);
+  new ListaMegjelenit(LISTA, szuloElem)
 });
 
 

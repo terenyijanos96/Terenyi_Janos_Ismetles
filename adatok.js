@@ -1,0 +1,1 @@
+export const TERVEKLISTA = ["elhelyezkdeni programozóként", "valami", "egyéb"];
